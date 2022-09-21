@@ -9,7 +9,9 @@
   --hero-background-color: #2f303a;
   --footer-backgrd-color: #2f303a;
   }
+
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -18,6 +20,14 @@ body {
 }
 .header {
   background-color: var(--header-main-color);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  outline: 2px solid tomato; 
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -65,34 +75,49 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
 }
 /* ----Герой---- */
-
 .hero {
   background-color: var(--hero-background-color);
-}
+  text-align: center;
+  margin-bottom: 94px;
+  list-style: none;
+  outline: 2px solid tomato; 
+ }
 .hero-title {
+  margin-top: 0;
+  padding-right: 452px;
+  padding-left: 452px;
+  padding-top: 200px; 
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--btn-accent-color);
 }
 .hero-btn {
+  border-radius: 4px;
+  border: solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 32px;
+  min-width: 216px;
+  margin-bottom: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var (--main-page-tittle-color);
+  color: var(--main-font-color);
   background: var(--accent-color);
   cursor: pointer;
 }
@@ -102,9 +127,10 @@ body {
 }
 .hero-btn:focus {
   color: var(--btn-accent-color);
-  background-color: var(--accent-color);
 }
 .benefits-title {
+  margin-top: 0;
+  margin-bottom: 10;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -180,7 +206,10 @@ footer {
 }
 /* -----Друга сторінка----- */
 
-.filter-btn {
+.filter-btn {2
+  background: #F5F4FA;
+  border-radius: 4px;
+  border: solid transparent;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
