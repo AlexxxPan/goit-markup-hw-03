@@ -8,6 +8,8 @@
   --btn-accent-color: #ffffff;
   --hero-background-color: #2f303a;
   --footer-backgrd-color: #2f303a;
+  --mission-bkgrd-color: #F5F5F5;
+  --team-backgrd-color: #F5F4FA;
   }
 
 body {
@@ -24,9 +26,9 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   outline: 2px solid tomato; 
 }
 .main-nav {
@@ -94,7 +96,7 @@ body {
   color: var(--accent-color);
 }
 .header-mail {
-    margin-left: 277px;
+    margin-left: 247px;
 }
 .list {
   list-style: none;
@@ -158,21 +160,15 @@ body {
   margin-left: 0;
   }
 .benefits-item {
-    width: 270px;
+  width: 270px;
   margin-right: 30px;
-  margin-top: 94px;
-  /* margin-bottom: 118px; */
-    background-color: tomato;
+  background-color: tomato;
 }
-/* .benefits-item:nth-child(4n) {
+.benefits-item:nth-child(4n) {
   margin-right: 0;
-} */
-/* .benefits-item:first-child {
-  margin-left: 0;
-} */
+}
 .benefits-title {
   margin-top: 0;
-  margin-bottom: 10;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -180,28 +176,59 @@ body {
   color: var(--main-font-color);
 }
 .benefits-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--benefits-text-color);
 }
 
-
 /* ----Основна діяльність компанії--- */
-.mission {
-    font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--main-font-color);
+img {
+  display: block;
 }
-.team {
+.mission-section {
+  background-color: var(--mission-bkgrd-color);
+}
+.mission {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--main-font-color);
 }
+.mission-list {
+  display:flex;
+    }
+   .mission-item {
+    margin-right: 30px;
+   }
+    .mission-item:nth-child(3n) {
+margin-right: 0; 
+}
+/* -----Our Team----- */
+
+.team {
+  margin-bottom: 50px;
+  padding-top: 94px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-font-color);
+}
+.team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.team-item {
+  margin-right: 30px;
+ }
+ .team-item:nth-child(4n) {
+  margin-right: 0; 
+ }
 .employee {
   font-weight: 500;
   font-size: 16px;
