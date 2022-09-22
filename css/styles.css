@@ -155,7 +155,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: teal;
-    }
+  margin-left: 0;
+  }
 .benefits-item {
     width: 270px;
   margin-right: 30px;
@@ -167,8 +168,8 @@ body {
   margin-right: 0;
 } */
 /* .benefits-item:first-child {
-  margin-left: 0; */
-}
+  margin-left: 0;
+} */
 .benefits-title {
   margin-top: 0;
   margin-bottom: 10;
