@@ -24,7 +24,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--main-font-color); 
-  background-color: var(--main-page-tle-color);
+  background-color: var(--header-main-color);
 }
 
 /* -----Utilits----- */
@@ -166,7 +166,7 @@ body {
 }
 /* -----Benefits----- */
 .benefits {
-  background-color: var(--main-page-tle-color);
+  background-color: var(--header-main-color);
 }
 .benefits-list {
   display: flex;
@@ -204,7 +204,7 @@ img {
   display: block;
 }
 .mission-section {
-  background-color: var(--main-page-tle-color);
+  background-color: var(--header-main-color);
 }
 .mission {
   margin-bottom: 50px;
@@ -317,10 +317,10 @@ footer {
 }
 /* -----Друга сторінка----- */
 .main-section {
-  background-color: var(--main-page-tle-color);
+  background-color: #F5F5F5;
 }
-.filter-btn {2
-  background: #F5F4FA;
+.filter-btn {
+  background-color: #F5F4FA;
   border-radius: 4px;
   border: solid transparent;
   font-family: inherit;
