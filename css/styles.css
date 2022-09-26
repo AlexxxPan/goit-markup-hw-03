@@ -214,6 +214,7 @@ img {
   }
 .miss-nav {
   padding-top: 0;
+  padding-bottom: 94px;
 }
 .mission {
   margin-bottom: 50px;
@@ -238,7 +239,7 @@ img {
 }
 .team-nav {
   padding-top: 94px;
-  padding-bottom: 94px;
+  
 }
 .team {
   margin-bottom: 50px;
@@ -313,7 +314,7 @@ footer {
   background-color: var(--footer-backgrd-color);
 }
 .footer-address {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer-mail,
 .footer-tel {
